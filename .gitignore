@@ -1,0 +1,13 @@
+build*/
+*.exe
+*.dll
+*.db
+*.sqlite*
+*.log
+*.user
+.qmake.stash
+.qtc_clangd/
+__pycache__/
+.pytest_cache/
+.env
+test-output/
