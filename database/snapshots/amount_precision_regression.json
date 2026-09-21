@@ -1,0 +1,14 @@
+{
+  "evidence_type": "sanitized_regression_snapshot",
+  "defect": "decimal amount lost precision during string conversion",
+  "first_version": {"input": 123456.78, "stored": 123457, "status": "failed"},
+  "fixed_version": {
+    "binding_type": "double",
+    "checks": [
+      {"input": 0.01, "stored": 0.01},
+      {"input": 9999.99, "stored": 9999.99},
+      {"input": 123456.78, "stored": 123456.78}
+    ],
+    "status": "passed"
+  }
+}

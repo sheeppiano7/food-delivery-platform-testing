@@ -1,0 +1,11 @@
+{
+  "evidence_type": "sanitized_database_snapshot",
+  "case_id": "ORDER-FLOW-001",
+  "orderuuid": "QA_PUBLIC_ORDER_001",
+  "states": [
+    {"step": "created", "orderstatu": 0, "price": 12.34},
+    {"step": "accepted_by_rider", "orderstatu": 1, "price": 12.34},
+    {"step": "completed", "orderstatu": 2, "price": 12.34}
+  ],
+  "persistence_check": "record remained after service restart"
+}

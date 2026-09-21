@@ -22,6 +22,7 @@
 
 ```text
 src/             Qt 服务端与 UDP 通信源码（独立修复副本）
+database/        SQLite 建表、合成初始化脚本与缺陷回归快照
 tests/           Python UDP 回归脚本
 docs/            计划、用例、执行记录、缺陷单与阶段报告
 ```
@@ -41,3 +42,4 @@ docs/            计划、用例、执行记录、缺陷单与阶段报告
 - [逐条执行记录](docs/03_执行记录.md)
 - [缺陷单](docs/04_缺陷单.md)
 - [阶段测试报告](docs/05_阶段测试报告.md)
+- [脱敏数据库复现材料](database/README.md)

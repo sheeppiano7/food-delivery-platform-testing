@@ -1,0 +1,8 @@
+{
+  "evidence_type": "sanitized_regression_snapshot",
+  "defect": "single quote in menu name caused update failure and old-row loss",
+  "input": {"uuid": "QA_PUBLIC_MENU_B", "name": "O'Brien套餐", "price": 28.5},
+  "first_version": {"insert_succeeded": false, "old_row_preserved": false, "status": "failed"},
+  "fixed_version": {"parameter_binding": true, "transaction_rollback": true, "insert_succeeded": true, "stored_name": "O'Brien套餐", "status": "passed"},
+  "forced_failure_check": {"new_insert_succeeded": false, "old_row_preserved": true, "status": "passed"}
+}
